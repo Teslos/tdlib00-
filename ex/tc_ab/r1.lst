@@ -1,0 +1,151 @@
+
+
+-------------Start of calculation-------------
+initial values of parameters and bounds (lower - upper)
+          V1      20276.        -inf         inf
+         V11     -21814.        -inf         inf
+         V12      14.980        -inf         inf
+         V15      25199.        -inf         inf
+         V16     -9.6979        -inf         inf
+         V17      3906.0        -inf         inf
+         V19      25000.        -inf         inf
+          V2     -29.547        -inf         inf
+         V20     -9.7000        -inf         inf
+
+new variance components after 2 iteration
+value of L is     -1.1733e+10  and of SS is      1.1733e+10
+new parameters after 218 iterations
+value of L is     -8.5027e+09  and of SS is      8.5027e+09
+new variance components after 2 iteration
+value of L is     -8.5027e+09  and of SS is      8.5027e+09
+new parameters after 224 iterations
+value of L is     -8.4682e+09  and of SS is      8.4682e+09
+new variance components after 2 iteration
+value of L is     -8.4682e+09  and of SS is      8.4682e+09
+new parameters after 220 iterations
+value of L is     -8.3906e+09  and of SS is      8.3906e+09
+new variance components after 2 iteration
+value of L is     -8.3906e+09  and of SS is      8.3906e+09
+new parameters after 220 iterations
+value of L is     -8.1683e+09  and of SS is      8.1683e+09
+new variance components after 2 iteration
+value of L is     -8.1683e+09  and of SS is      8.1683e+09
+new parameters after 222 iterations
+value of L is     -7.8997e+09  and of SS is      7.8997e+09
+new variance components after 2 iteration
+value of L is     -7.8997e+09  and of SS is      7.8997e+09
+
+Process ended after    5 iterations
+tensolve report
+Iteration limit exceeded
+gradient is
+          V1 -5.6727e+09
+         V11 -1.7585e+10
+         V12 -2.9826e+10
+         V15 -8.3913e+09
+         V16 -3.7416e+09
+         V17 -2.3965e+09
+         V19  1.7779e+10
+          V2 -5.4927e+09
+         V20  2.9046e+10
+
+
+difL     0.034000, difv       0.0000
+value of L is     -7.8997e+09  and of SS is      7.8997e+09
+
+
+Parameter +/- standard deviation
+          V1     -7742.6 +/-   0.0075686
+         V11     -56076. +/-  0.00023293
+         V12      52.535 +/-  0.00015584
+         V15     -5531.0 +/-  0.00052386
+         V16      22.223 +/-  0.00035903
+         V17      8933.8 +/-  9.4627e-05
+         V19     -21751. +/-  0.00021268
+          V2    -0.14008 +/-   0.0072442
+         V20      33.220 +/-  0.00014514
+
+Correlation matrix for free parameters
+           1
+    -0.88223           1
+     0.87593    -0.99492           1
+    -0.99828     0.86006    -0.85650           1
+     0.98945    -0.81801     0.81977    -0.99583           1
+    -0.98169     0.80307    -0.80689     0.98679    -0.99388           1
+    -0.89092     0.97920    -0.98681     0.87398    -0.84355     0.83729           1
+    -0.99999     0.88403    -0.87757     0.99805    -0.98886     0.98107     0.89232           1
+     0.87215    -0.96145     0.97934    -0.85818     0.83342    -0.82917    -0.99466    -0.87338           1
+ ID           eq            sr             sga            sgb
+    E1T   BCC_L_A2B_T, *      10.000, *      0.0000,        n/a  ;
+    E1L   BCC_L_A2B_L, *    0.020000, *      0.0000,        n/a  ;
+    E1B   BCC_L_A2B_B, *    0.020000, *      0.0000,        n/a  ;
+     L1         A2B_L, *      10.000, *      0.0000,        n/a  ;
+    E2T   A2B_L_BCC_T, *      10.000, *      0.0000,        n/a  ;
+    E2L   A2B_L_BCC_L, *    0.020000, *      0.0000,        n/a  ;
+    E2B   A2B_L_BCC_B, *    0.020000, *      0.0000,        n/a  ;
+    E3T   L_BCC_FCC_T, *      10.000, *      0.0000,        n/a  ;
+    E3L   L_BCC_FCC_L, *    0.020000, *      0.0000,        n/a  ;
+    E3B   L_BCC_FCC_B, *    0.020000, *      0.0000,        n/a  ;
+    E3F   L_BCC_FCC_F, *    0.020000, *      0.0000,        n/a  ;
+    E4T BCC_A2B_BCC_T, *      10.000, *      0.0000,        n/a  ;
+   E4B1BCC_A2B_BCC_B1, *    0.020000, *      0.0000,        n/a  ;
+   E4B2BCC_A2B_BCC_B2, *    0.020000, *      0.0000,        n/a  ;
+     L2      FCC_L_L1, *    0.020000, *      0.0000, *      0.0000;
+    L3L      FCC_L_L2, *    0.020000, *      0.0000, *      0.0000;
+    L3F       FCC_L_F, *    0.020000, *      0.0000, *      0.0000;
+    L4L       BCC_L_L, *    0.020000, *      0.0000,        n/a  ;
+    L4B       BCC_L_B, *    0.020000, *      0.0000,        n/a  ;
+      A           act, *    0.020000, *      0.0000, *      0.0000;
+   Hmix          Hmix, *      500.00, *      0.0000, *      0.0000;
+     Hm         Hmelt, *      500.00, *      0.0000,        n/a  ;
+
+
+Results 
+     ID         av_dev        sri      err_a        err_b      err1_b
+          E1T      364.81      0.0000      364.81       n/a         n/a 
+          E1L      364.81      0.0000      364.81       n/a         n/a 
+          E1B      364.81      0.0000      364.81       n/a         n/a 
+           L1      54.288      0.0000      54.288       n/a         n/a 
+          E2T      195.81      0.0000      195.81       n/a         n/a 
+          E2L      195.81      0.0000      195.81       n/a         n/a 
+          E2B      195.81      0.0000      195.81       n/a         n/a 
+          E3T      230.25      0.0000      230.25       n/a         n/a 
+          E3L      230.25      0.0000      230.25       n/a         n/a 
+          E3B      230.25      0.0000      230.25       n/a         n/a 
+          E3F      230.25      0.0000      230.25       n/a         n/a 
+          E4T      553.60      0.0000      553.60       n/a         n/a 
+         E4B1      553.60      0.0000      553.60       n/a         n/a 
+         E4B2      553.60      0.0000      553.60       n/a         n/a 
+           L2      689.24      152.11      549.54      6.6836      387.20
+          L3L      119.65      1.0293      116.61    -0.32477     -26.771
+          L3F      119.65      1.0293      116.61    -0.32477     -26.771
+          L4L      171.64      0.0000      171.64       n/a         n/a 
+          L4B      171.64      0.0000      171.64       n/a         n/a 
+            A     0.34644    0.061885    -0.29516     0.66035     0.17050
+         Hmix      6593.6      2001.9      6282.4     -24.167     -6.2398
+           Hm      1725.9      0.0000     -1725.9       n/a         n/a 
+
+     ID       Ntot     Ns      NOfX      xav       Ps       ScaleOfX
+          E1T    1    1           0      0.0000      0.0000      1.0000
+          E1L    1    1           1      1193.0      0.0000      1.0000
+          E1B    1    1           1      1193.0      0.0000      1.0000
+           L1    1    1           2     0.33333      0.0000      1.0000
+          E2T    1    1           0      0.0000      0.0000      1.0000
+          E2L    1    1           1      1049.0      0.0000      1.0000
+          E2B    1    1           1      1049.0      0.0000      1.0000
+          E3T    1    1           0      0.0000      0.0000      1.0000
+          E3L    1    1           1      1203.0      0.0000      1.0000
+          E3B    1    1           1      1203.0      0.0000      1.0000
+          E3F    1    1           1      1203.0      0.0000      1.0000
+          E4T    1    1           0      0.0000      0.0000      1.0000
+         E4B1    1    1           1      726.00      0.0000      1.0000
+         E4B2    1    1           1      726.00      0.0000      1.0000
+           L2    4    4           1      1519.8      115.87      1.0000
+          L3L    3    3           1      1321.0      142.77      1.0000
+          L3F    3    3           1      1321.0      142.77      1.0000
+          L4L    1    1           1      1100.0      0.0000      1.0000
+          L4B    1    1           1      1100.0      0.0000      1.0000
+            A    9    9           1     0.50000     0.77460      1.0000
+         Hmix    9    9           1     0.50000     0.77460      1.0000
+           Hm    1    1           2      1341.0      0.0000      1.0000
+

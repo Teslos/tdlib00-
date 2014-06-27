@@ -1,0 +1,47 @@
+I have tested this distribution with gcc 4.3.4 (g++ + gfortran)
+
+1) Compile LAPACK
+
+$ wget http://www.netlib.org/lapack/lapack-3.3.0.tgz
+$ tar zxvf lapack-3.3.0.tgz
+$ cp INSTALL/make.inc.gfortran make.inc
+$ make blaslib
+$ make lapacklib
+$ ls *.a
+blas_LINUX.a  lapack_LINUX.a
+
+Rename the libraries as libblas.a and liblapack.a and put in bin directory.
+
+You do not need the optimized BLAS to work with TDLIB. The reference BLAS from LAPACK should be oktay.
+
+2a) If you use g2c then change in make.ini
+
+F77 = gfortran
+
+to 
+
+F77 = g2c
+
+and then
+ 
+G2C = -lf2c -lgfortran
+
+to 
+
+G2C = -lg2c
+
+2b) If you gfortran, you need also to compile libf2c.a
+
+$ wget http://www.netlib.org/f2c/libf2c.zip
+$ unzip libf2c.zip
+
+If you work under Cygwin, then edit makefile.u. Change a.out to a.exe two times.
+
+$ make -f makefile.u
+
+Copy the library libf2c.a to the bin directory.
+
+3) Run make in lib and if all goes well you should obtain assess.exe in bin.
+
+
+

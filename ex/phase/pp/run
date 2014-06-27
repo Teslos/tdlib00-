@@ -1,0 +1,42 @@
+#!/bin/csh -fv
+
+../../../bin/assess ex1 out
+
+../../../bin/assess ex2 out
+
+../../../bin/assess null_tp out
+
+../../../bin/assess cp_zero out
+
+../../../bin/assess cp_const out
+
+../../../bin/assess cp_bb2 out
+
+../../../bin/assess cp_bb2_ref out
+
+../../../bin/assess cp_bb4 out
+
+../../../bin/assess ivt_tp out
+
+../../../bin/assess sgte_tp out
+
+../../../bin/assess ideal_gas out
+
+../../../bin/assess v_const out
+
+../../../bin/assess alpha_const out
+
+../../../bin/assess alpha_kappa_const out
+
+../../../bin/assess alpha_kappa_const2 out
+
+../../../bin/assess complex_tp out
+
+../../../bin/assess calc_tp out
+
+../../../bin/assess compound_tp out
+
+../../../bin/assess species out2
+
+../../../bin/assess -m k2so4
+

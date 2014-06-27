@@ -1,0 +1,139 @@
+
+
+-------------Start of calculation-------------
+initial values of parameters and bounds (lower - upper)
+         L0a     -7191.0   -Infinity    Infinity
+         L0b      3.3630   -Infinity    Infinity
+       s113a     -924.60   -Infinity    Infinity
+        s11a     -2594.0   -Infinity    Infinity
+
+new variance components after 11 iteration
+value of L is         -2216.7  and of SS is          176.98
+new parameters after 16 iterations
+value of L is         -2216.7  and of SS is          176.98
+new variance components after 2 iteration
+value of L is         -2216.7  and of SS is          177.01
+new parameters after 16 iterations
+value of L is         -2216.7  and of SS is          177.01
+new variance components after 2 iteration
+value of L is         -2216.7  and of SS is          177.00
+new parameters after 16 iterations
+value of L is         -2216.7  and of SS is          177.00
+new variance components after 2 iteration
+value of L is         -2216.7  and of SS is          177.00
+new parameters after 11 iterations
+value of L is         -2216.7  and of SS is          177.00
+new variance components after 2 iteration
+value of L is         -2216.7  and of SS is          177.00
+new parameters after 11 iterations
+value of L is         -2216.7  and of SS is          177.00
+new variance components after 2 iteration
+value of L is         -2216.7  and of SS is          177.00
+new parameters after 11 iterations
+value of L is         -2216.7  and of SS is          177.00
+new variance components after 2 iteration
+value of L is         -2216.7  and of SS is          177.00
+new parameters after 11 iterations
+value of L is         -2216.7  and of SS is          177.00
+new variance components after 2 iteration
+value of L is         -2216.7  and of SS is          177.00
+new parameters after 11 iterations
+value of L is         -2216.7  and of SS is          177.00
+new variance components after 2 iteration
+value of L is         -2216.7  and of SS is          177.00
+new parameters after 11 iterations
+value of L is         -2216.7  and of SS is          177.00
+new variance components after 2 iteration
+value of L is         -2216.7  and of SS is          177.00
+new parameters after 13 iterations
+value of L is         -2216.7  and of SS is          177.00
+new variance components after 2 iteration
+value of L is         -2216.7  and of SS is          177.00
+
+Process ended after   10 iterations
+tensolve report
+Last global step failed to locate a point lower than XP
+gradient is
+         L0a -3.9363e-07
+         L0b -0.00038386
+       s113a  1.9039e-08
+        s11a  1.6010e-06
+
+
+difL   5.8467e-14, difv   0.00010934
+value of L is         -2216.7  and of SS is          177.00
+
+
+Parameter +/- standard deviation
+         L0a     -7242.6 +/-      2072.8
+         L0b      3.4479 +/-      3.6001
+       s113a     -922.70 +/-      87.437
+        s11a     -2589.8 +/-      237.07
+
+Correlation matrix for free parameters
+           1
+    -0.99120           1
+    -0.94536     0.97537           1
+    -0.90198     0.95087     0.97698           1
+ ID           eq            sr             sga            sgb
+     F1         HBaCu, *      3915.0, %      0.0000,        n/a  ;
+     H1           HBa, #3     1791.0, #3     4.2992, #3     22.954;
+     H2           HBa, #3     1791.0, #3     4.2992, #3     22.954;
+     H3           HCu, #3     1791.0, #3     4.2992, #3     22.954;
+     L1          Ba_L, #1     8.1815, #1     2.6903, #1     15.916;
+     L2          Ba_L, #1     8.1815, #1     2.6903,        n/a  ;
+     L3        BaCu_L, #1     8.1815, #1     2.6903, #1     15.916;
+     L4        BaCu_L, #1     8.1815, #1     2.6903,        n/a  ;
+     L5      BaCu13_L, #1     8.1815, #1     2.6903, #1     15.916;
+     L6      BaCu13_L, #1     8.1815, #1     2.6903,        n/a  ;
+     L7          Cu_L, #1     8.1815, #1     2.6903, #1     15.916;
+     L8          Cu_L, #1     8.1815, #1     2.6903, #1     15.916;
+     N1     Ba_L_BaCu, #2     3.9770, #2   0.024285, *      0.0000;
+     N2     Ba_L_BaCu, #2     3.9770, #2   0.024285,        n/a  ;
+     N3 BaCu_L_BaCu13, #2     3.9770, #2   0.024285, *      0.0000;
+     N4 BaCu_L_BaCu13, #2     3.9770, #2   0.024285, *      0.0000;
+     N5 BaCu_L_BaCu13, #2     3.9770, #2   0.024285, *      0.0000;
+     N6   BaCu13_L_Cu, #2     3.9770, #2   0.024285,        n/a  ;
+
+
+Results 
+     ID         av_dev        sri      err_a        err_b      err1_b
+           F1      7.1647      0.0000     -7.1647       n/a         n/a 
+           H1      3501.7      2155.9      2001.4     -20542.     -1899.6
+           H2      14135.      684.32      12820.      69267.      5914.8
+           H3      4125.9      926.51      3435.1     -12869.     -2089.2
+           L1      12.015     0.36205     -10.925     -122.18     -4.9881
+           L2      27.958      0.0000     -27.958       n/a         n/a 
+           L3      20.583      3.5258      20.077     -34.253     -2.8558
+           L4      12.906      0.0000      12.906       n/a         n/a 
+           L5      14.386      0.0000      4.8916     -901.94     -13.529
+           L6      29.563      0.0000     -29.563       n/a         n/a 
+           L7      20.436      7.5338      7.4849     -193.23     -17.460
+           L8      43.403      0.0000      43.086     -104.79     -5.2395
+           N1      4.5809      2.8225   -0.018277      24.704      3.6080
+           N2      1.6433      0.0000     -1.6433       n/a         n/a 
+           N3      2.7620      2.6009     0.91031     -1.3462    -0.18733
+           N4      6.5435      2.9935     -3.4897     -39.445     -4.6561
+           N5      1.9103      0.0000      1.9103 -4.3650e-15 -6.7876e-16
+           N6     0.18514      0.0000     0.18514       n/a         n/a 
+
+     ID       Ntot     Ns      NOfX      xav       Ps       ScaleOfX
+           F1    1    1           0      0.0000      0.0000      1.0000
+           H1   68   68           2     0.88699     0.76260      1.0000
+           H2    6    6           2     0.87500     0.20917      1.0000
+           H3   43   43           2     0.29716      1.0646      1.0000
+           L1    3    3           2     0.10000    0.070711      1.0000
+           L2    1    1           2     0.20700      0.0000      1.0000
+           L3    5    5           2     0.41680     0.18643      1.0000
+           L4    1    1           2     0.49900      0.0000      1.0000
+           L5    2    2           2     0.59000    0.021213      1.0000
+           L6    1    1           2     0.57400      0.0000      1.0000
+           L7   13   13           2     0.83962     0.32579      1.0000
+           L8    2    2           2     0.80000    0.070711      1.0000
+           N1    8    8           2     0.25687     0.41309      1.0000
+           N2    1    1           2     0.20700      0.0000      1.0000
+           N3   16   15           2     0.78207     0.53893      1.0000
+           N4    5    5           2     0.66600     0.26394      1.0000
+           N5    2    2           2     0.65450     0.21991      1.0000
+           N6    1    1           2     0.81000      0.0000      1.0000
+

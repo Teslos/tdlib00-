@@ -1,0 +1,4 @@
+../../bin/assess sys alg res h.out pd.out non.out -d expr -s ml -o ml
+../../bin/assess sys alg res h.out pd.out non.out -d expr -s ml1 -o ml1
+../../bin/assess sys alg res h.out pd.out non.out -d expr -s wls -o wls
+

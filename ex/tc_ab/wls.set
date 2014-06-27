@@ -1,0 +1,26 @@
+      A           act, *           0.02, *           0, *           0;
+   Hmix          Hmix, *           500, *           0, *           0;
+
+     L1         A2B_L, *           10, *           0, *           0;
+     Hm         Hmelt, *           500, *           0, *           0;
+
+    E1T   BCC_L_A2B_T, *           10, *           0, *           0;
+    E1L   BCC_L_A2B_L, *           0.02, *           0, *           0;
+    E1B   BCC_L_A2B_B, *           0.02, *           0, *           0;
+    E2T   A2B_L_BCC_T, *           10, *           0, *           0;
+    E2L   A2B_L_BCC_L, *           0.02, *           0, *           0;
+    E2B   A2B_L_BCC_B, *           0.02, *           0, *           0;
+    E4T BCC_A2B_BCC_T, *           10, *           0, *           0;
+   E4B1 BCC_A2B_BCC_B1, *          0.02, *           0, *           0;
+   E4B2 BCC_A2B_BCC_B2, *          0.02, *           0, *           0;
+    L4L       BCC_L_L, *           0.02, *           0, *           0;
+    L4B       BCC_L_B, *           0.02, *           0, *           0;
+
+    E3T   L_BCC_FCC_T, *           10, *           0, *           0;
+    E3L   L_BCC_FCC_L, *           0.02, *           0, *           0;
+    E3B   L_BCC_FCC_B, *           0.02, *           0, *           0;
+    E3F   L_BCC_FCC_F, *           0.02, *           0, *           0;
+     L2      FCC_L_L1, *           0.02, *           0, *           0;
+    L3L      FCC_L_L2, *           0.02, *           0, *           0;
+    L3F       FCC_L_F, *           0.02, *           0, *           0;
+

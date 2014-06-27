@@ -1,0 +1,14 @@
+Evgenii Rudnyi, http://Evgenii.Rudnyi.Ru/
+
+Last modified 7 Jan 2005.
+
+TDLIB uses LAPACK. This header is written by me to simplify Lapack
+calls. TDLIB does not call functions in extern "C" directly. 
+If you have problem with linking to your Lapack you can modify this.
+
+The optimized BLAS is not crucial for TDLIB as it uses LAPACK not that
+often and for relatively low-dimensional matrices. Well, clearly the
+optimized BLAS is better.
+
+ex/ contains some examples to call LAPACK
+

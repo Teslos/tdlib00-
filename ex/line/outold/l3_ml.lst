@@ -1,0 +1,83 @@
+
+
+-------------Start of calculation-------------
+initial values of parameters and bounds (lower - upper)
+           a      0.0000   -Infinity    Infinity
+           b      0.0000   -Infinity    Infinity
+
+new variance components after 9 iteration
+value of L is         -368.82  and of SS is          56.990
+new parameters after 7 iterations
+value of L is         -362.98  and of SS is          51.151
+new variance components after 5 iteration
+value of L is         -346.89  and of SS is          57.008
+new parameters after 7 iterations
+value of L is         -342.66  and of SS is          52.774
+new variance components after 5 iteration
+value of L is         -336.28  and of SS is          57.006
+new parameters after 7 iterations
+value of L is         -335.42  and of SS is          56.145
+new variance components after 4 iteration
+value of L is         -335.26  and of SS is          57.008
+new parameters after 7 iterations
+value of L is         -335.26  and of SS is          57.004
+new variance components after 2 iteration
+value of L is         -335.26  and of SS is          57.004
+new parameters after 7 iterations
+value of L is         -335.26  and of SS is          57.004
+new variance components after 2 iteration
+value of L is         -335.26  and of SS is          57.000
+new parameters after 7 iterations
+value of L is         -335.26  and of SS is          57.000
+new variance components after 2 iteration
+value of L is         -335.26  and of SS is          57.000
+new parameters after 4 iterations
+value of L is         -335.26  and of SS is          57.000
+new variance components after 2 iteration
+value of L is         -335.26  and of SS is          57.000
+
+Process ended after    7 iterations
+tensolve report
+gradient tolerance reached
+gradient is
+           a  2.3610e-07
+           b -6.1486e-06
+
+
+difL   7.6299e-15, difv   4.0843e-07
+value of L is         -335.26  and of SS is          57.000
+
+
+Parameter +/- standard deviation
+           a      107.43 +/-      5.7187
+           b     0.87326 +/-     0.10190
+
+Correlation matrix for free parameters
+           1
+    -0.81109           1
+ ID           eq            sr             sga            sgb
+ series_1          line, #      9.4186, #     0.80232, #     0.18122;
+ series_2          line, #      9.4186, #     0.80232, #     0.18122;
+ series_3          line, #      9.4186, #     0.80232, #     0.18122;
+ series_4          line, #      9.4186, #     0.80232, #     0.18122;
+ series_5          line, #      9.4186, #     0.80232, #     0.18122;
+ series_6          line, #      9.4186, #     0.80232, #     0.18122;
+
+
+Results 
+     ID         av_dev        sri      err_a        err_b      err1_b
+     series_1      12.802      7.9243     -10.020     0.32674     0.84365
+     series_2      16.704      7.1262      14.695      1.1714      3.5063
+     series_3      16.195      5.8014     -6.5475     -3.6425     -13.629
+     series_4      11.061      10.564      2.6314    -0.35847     -1.9556
+     series_5      12.046      8.4686      6.3857     0.58038      5.7100
+     series_6      12.856      9.5619     -5.5016     -2.5566     -6.6011
+
+     ID       Ntot     Ns      NOfX      xav       Ps       ScaleOfX
+     series_1    9    9           2      5.0000      7.7460      1.0000
+     series_2    5    5           2      15.200      6.6933      1.0000
+     series_3   13   13           2      27.000      13.491      1.0000
+     series_4   10   10           2      50.200      17.251      1.0000
+     series_5   11   11           2      77.455      32.630      1.0000
+     series_6    9    9           2      95.000      7.7460      1.0000
+

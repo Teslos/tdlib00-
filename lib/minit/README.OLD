@@ -1,0 +1,27 @@
+This bundle contains a linear programming package based on the dual
+simplex method. The original code was given in Collected Algorithms
+from CACM (1968) in algol 60 by Rudolfo Salazar and Subrata Sen. The
+evaluators of this algorithm suggested some fixes that have also been
+incorporated.
+I translated it into C and have been using it for sometime now without
+any problems. The code consists of two parts:
+
+(1) A function called minit_space_handler to initialize arrays by
+    mallocing the appropriate amount of space, and minit, the actual
+    LP solver. These routines can be invoked directly by another
+    package. Both are in file minit.c
+
+(2) A front end to use the minit routines stand alone. Usage is
+    documented in the man page.
+    
+If a laser printer is available, the man page may be printed as
+  eqn minit.1 | troff -t -man | lpr -t -Pwhatever
+Otherwise
+  nroff -man minit.1
+
+The implementation has been tested on a VAX 750 under BSD 4.2/4.3
+and Sun-3's with OS 3.5 and 4.0.3.
+
+Badri Lokanathan
+Dept. of Electrical Engineering
+University of Rochester

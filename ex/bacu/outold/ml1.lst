@@ -1,0 +1,127 @@
+
+
+-------------Start of calculation-------------
+initial values of parameters and bounds (lower - upper)
+         L0a     -7191.0   -Infinity    Infinity
+         L0b      3.3630   -Infinity    Infinity
+       s113a     -924.60   -Infinity    Infinity
+        s11a     -2594.0   -Infinity    Infinity
+
+new variance components after 2 iteration
+value of L is         -2441.4  and of SS is          177.00
+new parameters after 31 iterations
+value of L is         -2413.5  and of SS is          149.16
+new variance components after 2 iteration
+value of L is         -2403.7  and of SS is          177.00
+new parameters after 26 iterations
+value of L is         -2402.9  and of SS is          176.19
+new variance components after 2 iteration
+value of L is         -2402.8  and of SS is          177.00
+new parameters after 21 iterations
+value of L is         -2402.8  and of SS is          176.99
+new variance components after 2 iteration
+value of L is         -2402.8  and of SS is          177.00
+new parameters after 22 iterations
+value of L is         -2402.8  and of SS is          177.00
+new variance components after 2 iteration
+value of L is         -2402.8  and of SS is          177.00
+new parameters after 24 iterations
+value of L is         -2402.8  and of SS is          177.00
+new variance components after 2 iteration
+value of L is         -2402.8  and of SS is          177.00
+new parameters after 11 iterations
+value of L is         -2402.8  and of SS is          177.00
+new variance components after 2 iteration
+value of L is         -2402.8  and of SS is          177.00
+new parameters after 21 iterations
+value of L is         -2402.8  and of SS is          177.00
+new variance components after 2 iteration
+value of L is         -2402.8  and of SS is          177.00
+
+Process ended after    7 iterations
+tensolve report
+Last global step failed to locate a point lower than XP
+gradient is
+         L0a  1.1187e-06
+         L0b -0.00015310
+       s113a  6.4632e-07
+        s11a -3.2071e-06
+
+
+difL   9.6109e-12, difv   3.2424e-06
+value of L is         -2402.8  and of SS is          177.00
+
+
+Parameter +/- standard deviation
+         L0a     -3706.5 +/-      478.53
+         L0b     -2.1948 +/-     0.95660
+       s113a     -1041.6 +/-      37.025
+        s11a     -2862.0 +/-      123.57
+
+Correlation matrix for free parameters
+           1
+    -0.83331           1
+    -0.48658     0.83134           1
+    -0.35741     0.81102     0.88785           1
+ ID           eq            sr             sga            sgb
+     F1         HBaCu, *      3915.0, *      0.0000,        n/a  ;
+     H1           HBa, #3     3897.5, *      0.0000, *      0.0000;
+     H2           HBa, #3     3897.5, *      0.0000, *      0.0000;
+     H3           HCu, #3     3897.5, *      0.0000, *      0.0000;
+     L1          Ba_L, #1     26.807, *      0.0000, *      0.0000;
+     L2          Ba_L, #1     26.807, *      0.0000,        n/a  ;
+     L3        BaCu_L, #1     26.807, *      0.0000, *      0.0000;
+     L4        BaCu_L, #1     26.807, *      0.0000,        n/a  ;
+     L5      BaCu13_L, #1     26.807, *      0.0000, *      0.0000;
+     L6      BaCu13_L, #1     26.807, *      0.0000,        n/a  ;
+     L7          Cu_L, #1     26.807, *      0.0000, *      0.0000;
+     L8          Cu_L, #1     26.807, *      0.0000, *      0.0000;
+     N1     Ba_L_BaCu, #2     4.1001, *      0.0000, *      0.0000;
+     N2     Ba_L_BaCu, #2     4.1001, *      0.0000,        n/a  ;
+     N3 BaCu_L_BaCu13, #2     4.1001, *      0.0000, *      0.0000;
+     N4 BaCu_L_BaCu13, #2     4.1001, *      0.0000, *      0.0000;
+     N5 BaCu_L_BaCu13, #2     4.1001, *      0.0000, *      0.0000;
+     N6   BaCu13_L_Cu, #2     4.1001, *      0.0000,        n/a  ;
+
+
+Results 
+     ID         av_dev        sri      err_a        err_b      err1_b
+           F1      265.01      0.0000      265.01       n/a         n/a 
+           H1      3376.4      2164.3     -810.83     -26616.     -2461.4
+           H2      11454.      662.28      10087.      63078.      5386.3
+           H3      2235.3      903.51      1595.1     -7877.9     -1279.0
+           L1      10.043     0.36734     -9.1875     -98.974     -4.0406
+           L2      24.333      0.0000     -24.333       n/a         n/a 
+           L3      19.763      3.8873      19.288     -22.189     -1.8500
+           L4      13.047      0.0000      13.047       n/a         n/a 
+           L5      21.574      0.0000      16.880     -895.64     -13.435
+           L6      17.681      0.0000     -17.681       n/a         n/a 
+           L7      27.942      7.4131      14.630     -250.35     -22.622
+           L8      53.435      0.0000      52.758     -169.59     -8.4795
+           N1      4.8665      2.8225     -1.6426      24.704      3.6080
+           N2      3.2676      0.0000     -3.2676       n/a         n/a 
+           N3      2.8738      2.6009      1.2077     -1.3462    -0.18733
+           N4      6.3899      2.9935     -3.1923     -39.445     -4.6561
+           N5      2.2077      0.0000      2.2077 -4.9647e-15 -7.7201e-16
+           N6     0.13972      0.0000    -0.13972       n/a         n/a 
+
+     ID       Ntot     Ns      NOfX      xav       Ps       ScaleOfX
+           F1    1    1           0      0.0000      0.0000      1.0000
+           H1   68   68           2     0.88699     0.76260      1.0000
+           H2    6    6           2     0.87500     0.20917      1.0000
+           H3   43   43           2     0.29716      1.0646      1.0000
+           L1    3    3           2     0.10000    0.070711      1.0000
+           L2    1    1           2     0.20700      0.0000      1.0000
+           L3    5    5           2     0.41680     0.18643      1.0000
+           L4    1    1           2     0.49900      0.0000      1.0000
+           L5    2    2           2     0.59000    0.021213      1.0000
+           L6    1    1           2     0.57400      0.0000      1.0000
+           L7   13   13           2     0.83962     0.32579      1.0000
+           L8    2    2           2     0.80000    0.070711      1.0000
+           N1    8    8           2     0.25687     0.41309      1.0000
+           N2    1    1           2     0.20700      0.0000      1.0000
+           N3   16   15           2     0.78207     0.53893      1.0000
+           N4    5    5           2     0.66600     0.26394      1.0000
+           N5    2    2           2     0.65450     0.21991      1.0000
+           N6    1    1           2     0.81000      0.0000      1.0000
+

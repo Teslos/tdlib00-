@@ -1,0 +1,9 @@
+../../bin/assess ini -d line1 -s ml -o l1_ml
+../../bin/assess ini -d line1 -s wls -o l1_wls
+../../bin/assess ini -d line2 -s ml -o l2_ml
+../../bin/assess ini -d line2 -s wls -o l2_wls
+../../bin/assess ini -d line3 -s ml -o l3_ml
+../../bin/assess ini -d line3 -s wls -o l3_wls
+../../bin/assess ini -d line4 -s ml -o l4_ml
+../../bin/assess ini -d line4 -s wls -o l4_wls
+

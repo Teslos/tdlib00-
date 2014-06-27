@@ -1,0 +1,107 @@
+Copyright (C) 1994-2000 Evgenii Rudnyi, http://Evgenii.Rudnyi.Ru/
+
+This software is a copyrighted work licensed under the terms,
+described in the file "FREE_LICENSE". 
+
+Use at your own risk.
+
+Last Modified 20 Apr 2011
+
+Small changes to make it run with gcc 4.3.4 (g++ and gfortran). This includes mostly headers.
+
+Some bugs have been fixed for these years.
+
+string in gcc has some method index and there was some conflict with index in phase. It was possible to solve this problem by just changing the order of headers. It would be good to find some better solution.
+
+There is also
+
+warning: deprecated conversion from string constant to ‘char*’
+
+This happens in the case of calling f2c functions. It would be also good to do something in the future.
+
+
+Modified 8 Jan 2005.
+
+Fixes that I have made to TDLIB'00
+==================================
+
+1) Header names are corrected.
+
+2) istrstream and ostrstream are converted to istringstream and
+ostringstream.
+
+3) vector<T>::iterator is converted to *T where it was necessary by
+means of &*.
+
+4) Change in varcomp/data.h and varcomp/data.cpp in order to work on
+Sun.
+
+5) I changed the mechanism based on isnan(). Now I use HUGE_VAL
+instead (td_algo and varcomp).
+
+6) Other small fixes to compile with gcc 3.3.
+
+Directories
+===========
+
+callback/, f2c/, minit/ and toms/ are not my libraries. They are
+covered by their own licenses. My changes to them are coverged by GPL.
+
+callback/ contains a header for the Rich Hickey's callback
+
+f2c/ contains a header for the f2c library (g2c), some code in toms is
+f2c-ed from Fortran.
+
+lapack/ contains my header for LAPACK
+
+minit/ contains the modified code of Badri Lokanathan for linear programming
+
+toms/ contains several routines from www.netlib.org/toms. I have
+f2c-ed and changed some of them. Also, there is my header to call
+them.
+
+The code from minit/ and toms/ makes toms library in TDLIB.
+
+phase/ contains the code for the phase library in TDLIB.
+
+td_algo/ contains the code for the td_algo library in TDLIB.
+
+varcomp/ contains the code for the varcomp library in TDLIB as well as
+the code for the executable assess. 
+
+Each library has a directory ex/ with some tests. make in these
+directories builds and runs all of them.
+
+Compiling TDLIB'00+
+===================
+
+1) Make changes to make.inc. You need to specify the path to the
+LAPACK. If you use ATLAS, you need to change the library names.
+
+My code needs g2c.h to compile and libg2c.a to link. If necessary,
+specify paths. I needed to do it as on Mac, g77 is not included by
+default and I have used it from fink. 
+
+2) Run make.
+
+If you have gcc that, I believe, that chances are good. I have
+compiled with gcc 3.3. I have not tried the previous gcc versions. No
+doubts, gcc 2.95.2 and earlier will not work.
+
+make copies the distribution headers from the libraries to
+tdlib00+/include, then it compiles minit/, toms/, phase/, td_algo/,
+varcomp/. Libraries are made in tdlib00+/bin. 
+
+The only executable, assess, is made at the end (also in
+tdlib00+/bin).
+
+There are some warings:
+
+1) long double size;
+2) argument of negative values to unsigned.
+
+Just ignore.
+
+If something fails, please contact me at Evgenii@Rudnyi.Ru.
+
+

@@ -1,0 +1,22 @@
+The goal of the file fig2.mod is to demonstrate, how one could make the Fig 2 from
+
+Dmitri V. Malakhov, Thevika Balakumar
+Undulate phase boundaries on binary T-x diagrams
+Computer Coupling of Phase Diagrams and Thermochemistry 32 (2008) 89-93
+
+with TDLIB (http://evgenii.rudnyi.ru/doc/misc/tdlib.html).
+
+The command
+
+assess fig2 -o out
+
+produces file out.pd in the Gnuplot format. With the command
+
+gnuplot out.pd -
+
+one can visualize the plot. Finally
+
+gnuplot plot
+
+produces fig2.png.
+

@@ -1,0 +1,2 @@
+../../bin/assess sys alg res out -d expr -s wls -o r1
+

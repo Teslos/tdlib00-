@@ -1,0 +1,15 @@
+     x(L,Ba)      x(L,Cu)   x(Ba_s,Ba)            T            p         fmin      fmin(1) 
+           1            0            1         1000            1            0            0 
+
+     x(L,Ba)      x(L,Cu)   x(Ba_s,Ba) x(BaCu_s,Ba0.5Cu0.5)            T            p         fmin      fmin(1)      fmin(2) 
+    0.751842     0.248158            1            1      733.643            1  9.18719e-08 -6.54327e-08 -6.44905e-08 
+
+     x(L,Ba)      x(L,Cu) x(BaCu_s,Ba0.5Cu0.5) x(BaCu13_s,Ba0.07143Cu0.92857)            T            p         fmin      fmin(1)      fmin(2) 
+    0.497951     0.502049            1            1       821.09            1  4.82071e-08 -4.82069e-08  1.59442e-10 
+
+     x(L,Ba)      x(L,Cu) x(BaCu13_s,Ba0.07143Cu0.92857)   x(Cu_s,Cu)            T            p         fmin      fmin(1)      fmin(2) 
+    0.283414     0.716586            1            1      1030.81            1  2.75795e-09  2.25105e-09 -1.59343e-09 
+
+     x(L,Ba)      x(L,Cu)   x(Cu_s,Cu)            T            p         fmin      fmin(1) 
+           0            1            1      1357.77            1            0            0 
+

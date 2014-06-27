@@ -1,0 +1,16 @@
+#!/bin/csh -fv
+
+../../../bin/assess y123 alg t.out 
+
+../../../bin/assess y123 alg x1.out
+
+../../../bin/assess y123 algnum x1.out
+
+../../../bin/assess y123 alg x2.out
+
+../../../bin/assess y123 algnum x2.out
+
+../../../bin/assess y123 alg x2.out
+
+../../../bin/assess y123 algnum x2.out
+

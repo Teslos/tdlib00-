@@ -1,0 +1,10 @@
+#!/bin/csh -fv
+
+../../../bin/assess plane outtd 
+
+../../../bin/assess simple outtd 
+
+../../../bin/assess plane num outnum
+
+../../../bin/assess simple num outnum
+

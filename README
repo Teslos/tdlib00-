@@ -1,0 +1,48 @@
+Copyright (C) 1994-2000 Evgenii Rudnyi, http://Evgenii.Rudnyi.Ru/
+
+This software is a copyrighted work licensed under the terms,
+described in the file "FREE_LICENSE". 
+
+Use at your own risk.
+
+Last modified 20 Apr 2011.
+
+Small modifications to run with gcc 4.3.4 (g++ and gfortran). Now it is necessary additionaly to compile LAPACK and F2CLIB. See COMPILE for instructions.
+
+Modified 8 Jan 2005.
+
+TDLIB'00+
+=========
+
+This is TDLIB'00+, an updated version of TDLIB'00. I have fixed the
+code and now it can be compiled with gcc 3.3, at least on my Mac.
+
+Note that my new e-mail is Evgenii@Rudnyi.Ru and the new TDLIB site is
+at http://Evgenii.Rudnyi.Ru/programming.html#tdlib. The old e-mail and
+the site mentioned in the code may not work.
+
+Files
+-----
+
+doc/00tdlib.pdf is the manual.
+
+lib/ contains the code. See README in this directory how to compile
+TDLIB. You need to have LAPACK (http://www.netlib.org/lapack/).
+
+bin/ and include/ are empty directories for libraries and headers.
+
+ex/ contains the examples from the manual. See README in this
+directory. You need to compile assess to run the examples.
+
+Learning Path
+-------------
+
+1) Browse the manual to see if this what you need.
+
+2) Compile access. If you have gcc, chances are good that make will
+work smoothly. If you have problems, contact me at Evgenii@Rudnyi.Ru.
+
+3) Run examples according to the manual.
+
+4) Develop your own application based on TDLIB.
+

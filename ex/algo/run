@@ -1,0 +1,10 @@
+#!/bin/csh -fv
+
+../../bin/assess pass1
+
+../../bin/assess pass2
+
+../../bin/assess pass3
+
+../../bin/assess prop
+

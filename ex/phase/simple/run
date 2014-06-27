@@ -1,0 +1,36 @@
+#!/bin/csh -fv
+
+../../../bin/assess ex1 out
+
+../../../bin/assess ref1 out
+
+../../../bin/assess ref2 out
+
+../../../bin/assess ref3 out
+
+../../../bin/assess ref4 out
+
+../../../bin/assess ideal1 out
+
+../../../bin/assess -m ideal1
+
+../../../bin/assess ideal2 out
+
+../../../bin/assess ideal1 outsmall
+
+../../../bin/assess neglog ideal1 outsmall
+
+../../../bin/assess rk1 outfrml
+
+../../../bin/assess ha1 outfrml
+
+../../../bin/assess ha1_ outfrml
+
+../../../bin/assess pol1 outfrml
+
+../../../bin/assess rk2 outfrml
+
+../../../bin/assess ha2 outfrml
+
+../../../bin/assess pol2 outfrml
+

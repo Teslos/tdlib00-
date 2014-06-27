@@ -1,0 +1,7 @@
+set term png
+set output "fig2.png"
+set key outside width 5 spacing 2
+set title "Equilibrium A-L"
+set xlabel "x(B)"
+set ylabel "T/K"
+load "out.pd"

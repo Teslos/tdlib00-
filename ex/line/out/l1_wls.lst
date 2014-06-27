@@ -1,0 +1,63 @@
+
+
+-------------Start of calculation-------------
+initial values of parameters and bounds (lower - upper)
+           a      0.0000        -inf         inf
+           b      0.0000        -inf         inf
+
+new variance components after 2 iteration
+value of L is         -627.33  and of SS is          57.000
+new parameters after 7 iterations
+value of L is         -570.53  and of SS is         0.20472
+new variance components after 2 iteration
+value of L is         -306.47  and of SS is          57.000
+new parameters after 4 iterations
+value of L is         -306.47  and of SS is          57.000
+new variance components after 2 iteration
+value of L is         -306.47  and of SS is          57.000
+
+Process ended after    2 iterations
+tensolve report
+gradient tolerance reached
+gradient is
+           a -1.4467e-08
+           b -3.0939e-07
+
+
+difL       0.0000, difv       0.0000
+value of L is         -306.47  and of SS is          57.000
+
+
+Parameter +/- standard deviation
+           a      100.04 +/-      2.0941
+           b     0.96263 +/-    0.036760
+
+Correlation matrix for free parameters
+           1
+    -0.82565           1
+ ID           eq            sr             sga            sgb
+ series_1          line, #      8.9200, *      0.0000, *      0.0000;
+ series_2          line, #      8.9200, *      0.0000, *      0.0000;
+ series_3          line, #      8.9200, *      0.0000, *      0.0000;
+ series_4          line, #      8.9200, *      0.0000, *      0.0000;
+ series_5          line, #      8.9200, *      0.0000, *      0.0000;
+ series_6          line, #      8.9200, *      0.0000, *      0.0000;
+
+
+Results 
+     ID         av_dev        sri      err_a        err_b      err1_b
+     series_1      8.9765      8.7344     0.81501     0.73737      1.9039
+     series_2      9.4519      5.6569     -3.6705     -2.2126     -6.6231
+     series_3      7.1736      6.9296      1.8167   -0.099990    -0.37413
+     series_4      9.8925      9.8285    0.037579    -0.20591     -1.1233
+     series_5      8.7915      7.3086     -4.0529     0.27738      2.7290
+     series_6      9.8070      7.4176      3.5119     -2.0793     -5.3687
+
+     ID       Ntot     Ns      NOfX      xav       Ps       ScaleOfX
+     series_1    9    9           2      5.0000      7.7460      1.0000
+     series_2    5    5           2      15.200      6.6933      1.0000
+     series_3   13   13           2      27.000      13.491      1.0000
+     series_4   10   10           2      50.200      17.251      1.0000
+     series_5   11   11           2      77.455      32.630      1.0000
+     series_6    9    9           2      95.000      7.7460      1.0000
+

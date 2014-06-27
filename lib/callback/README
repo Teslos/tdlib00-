@@ -1,0 +1,68 @@
+C++ Template Callback Library
+Copyright 1994 Rich Hickey
+
+/* Permission to use, copy, modify, distribute and sell this software
+ * for any purpose is hereby granted without fee,
+ * provided that the above copyright notice appear in all copies and
+ * that both that copyright notice and this permission notice appear
+ * in supporting documentation.  Rich Hickey makes no
+ * representations about the suitability of this software for any
+ * purpose.  It is provided "as is" without express or implied warranty.
+*/ 
+
+1/30/95
+
+This is the first public release of this library. The release consists 
+of:
+
+callback.hpp  //the library proper
+cbsuite.cpp //a non-exhaustive test suite
+cbexam1.cpp //examples
+cbexam2.cpp
+cbexam3.cpp
+readme.txt  //this text
+
+This library provides a comprehensive, portable, type-safe, general 
+purpose mechanism for inter-component callbacks.  A complete rationale 
+and description of this mechanism appears in my article in the February 
+1995 issue of the C++ Report.  Users are strongly encouraged to read the 
+article before proceeding, as the library has minimal embedded 
+documentation at present.  
+
+The code has been successfully tested on Borland 4.02, IBM C Set++ 2.01 
+and Watcom 10. 
+
+If you are attempting a port to another compiler, make sure the suite 
+and examples compile and you can proceed with a good degree of certainty 
+that the library will perform correctly from then on.  
+
+The only new feature not covered in the article is a third flavor of 
+makeFunctor(), taking a pointer-to-member-function but _no object_. In 
+this case there must be at least one argument to the functor, and the 
+member function will be called on that argument, passing to it any 
+additional parameters. This feature is not covered in the suite yet, but 
+cbexam3.cpp provides a sample of its use.
+
+The typedefs for STL are untested.
+
+Planned Enhancements:
+
+  A version that supports stored parameters is in the works.
+
+Known bugs:
+
+  None at present.
+
+Please send bug reports, comments, etc to:
+
+rich@rcs-hq.mhs.compuserve.com
+CIS: 73567,3042
+
+I hope you find, as I do, that having a mechanism such as this greatly 
+increases the flexibility you have when designing systems in C++.  
+
+Enjoy.
+
+Rich Hickey
+
+

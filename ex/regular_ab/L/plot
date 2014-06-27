@@ -1,0 +1,9 @@
+#set terminal png
+#set output "fig.png"
+set key outside width 5 spacing 2
+plot "g-20.G" title "-20000" with line, \
+"g-10.G" title "-10000" with line, \
+"g0.G" title "0" with line, \
+"g10.G" title "10000" with line, \
+"g20.G" title "20000" with line
+

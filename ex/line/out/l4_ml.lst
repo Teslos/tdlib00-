@@ -1,0 +1,75 @@
+
+
+-------------Start of calculation-------------
+initial values of parameters and bounds (lower - upper)
+           a      0.0000        -inf         inf
+           b      0.0000        -inf         inf
+
+new variance components after 10 iteration
+value of L is         -373.12  and of SS is          56.995
+new parameters after 7 iterations
+value of L is         -365.80  and of SS is          49.676
+new variance components after 5 iteration
+value of L is         -352.43  and of SS is          57.010
+new parameters after 7 iterations
+value of L is         -348.87  and of SS is          53.448
+new variance components after 5 iteration
+value of L is         -345.82  and of SS is          57.005
+new parameters after 7 iterations
+value of L is         -345.72  and of SS is          56.905
+new variance components after 3 iteration
+value of L is         -345.72  and of SS is          57.004
+new parameters after 7 iterations
+value of L is         -345.72  and of SS is          57.004
+new variance components after 2 iteration
+value of L is         -345.72  and of SS is          57.000
+new parameters after 4 iterations
+value of L is         -345.72  and of SS is          57.000
+new variance components after 2 iteration
+value of L is         -345.72  and of SS is          57.000
+
+Process ended after    5 iterations
+tensolve report
+gradient tolerance reached
+gradient is
+           a -1.6207e-07
+           b  0.00027705
+
+
+difL   1.2961e-12, difv   4.5428e-06
+value of L is         -345.72  and of SS is          57.000
+
+
+Parameter +/- standard deviation
+           a      104.16 +/-      10.920
+           b     0.74695 +/-     0.19552
+
+Correlation matrix for free parameters
+           1
+    -0.80785           1
+ ID           eq            sr             sga            sgb
+ series_1          line, #      8.9444, #      1.7299, #     0.38643;
+ series_2          line, #      8.9444, #      1.7299, #     0.38643;
+ series_3          line, #      8.9444, #      1.7299, #     0.38643;
+ series_4          line, #      8.9444, #      1.7299, #     0.38643;
+ series_5          line, #      8.9444, #      1.7299, #     0.38643;
+ series_6          line, #      8.9444, #      1.7299, #     0.38643;
+
+
+Results 
+     ID         av_dev        sri      err_a        err_b      err1_b
+     series_1      10.494      9.1782    -0.67257      1.9530      5.0427
+     series_2      16.040      4.3230     -1.3137      5.1414      15.390
+     series_3      32.605      6.6971      23.134      5.8739      21.978
+     series_4      25.077      5.7396     -23.157     -1.4156     -7.7227
+     series_5      34.626      7.8867     -13.106     -3.1575     -31.064
+     series_6      18.795      11.332      14.990     0.11971     0.30910
+
+     ID       Ntot     Ns      NOfX      xav       Ps       ScaleOfX
+     series_1    9    9           2      5.0000      7.7460      1.0000
+     series_2    5    5           2      15.200      6.6933      1.0000
+     series_3   13   13           2      27.000      13.491      1.0000
+     series_4   10   10           2      50.200      17.251      1.0000
+     series_5   11   11           2      77.455      32.630      1.0000
+     series_6    9    9           2      95.000      7.7460      1.0000
+

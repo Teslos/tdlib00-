@@ -1,0 +1,21 @@
+     x(_1,A)      x(_2,A)            T            p         fmin    fmin(all) 
+           1            1         1400            1            0            0 
+
+     x(_1,B)      x(_2,B)            T            p         fmin    fmin(all) 
+           1            1         1100            1  6.00949e-10  6.00949e-10 
+
+     x(_1,B)      x(_2,B)            T            p         fmin    fmin(all) 
+           1            1      1633.33            1  6.82121e-13  6.82121e-13 
+
+      x(L,A)       x(L,B)     x(BCC,A)     x(BCC,B)   x(A2B,A2B)            T            p         fmin    fmin(all) 
+    0.784073     0.215927     0.943437     0.056563            1       1192.4            1  9.77214e-09  9.77214e-09 
+
+      x(L,A)       x(L,B)     x(BCC,A)     x(BCC,B)   x(A2B,A2B)            T            p         fmin    fmin(all) 
+    0.480792     0.519208     0.205098     0.794902            1      1048.24            1  9.83088e-07  9.83088e-07 
+
+      x(L,A)       x(L,B)     x(BCC,A)     x(BCC,B)     x(FCC,A)     x(FCC,B)            T            p         fmin    fmin(all) 
+     0.37002      0.62998     0.156251     0.843749     0.137581     0.862419      1203.11            1  4.68455e-08  4.68455e-08 
+
+  x(BCC_1,A)   x(BCC_1,B)   x(BCC_2,A)   x(BCC_2,B)   x(A2B,A2B)            T            p         fmin    fmin(all) 
+    0.962189    0.0378106     0.114569     0.885431            1      725.298            1  2.58933e-08  2.58933e-08 
+

@@ -1,0 +1,10 @@
+#!/bin/csh -fv
+
+../../../bin/assess reg alg x1.out 
+
+../../../bin/assess reg algnum x1.out
+
+../../../bin/assess ideal alg x1.out 
+
+../../../bin/assess ideal algnum x1.out
+

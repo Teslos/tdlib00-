@@ -1,0 +1,8 @@
+    E3T   L_BCC_FCC_T, *           10, *           0, *           0;
+    E3L   L_BCC_FCC_L, *           0.02, *           0, *           0;
+    E3B   L_BCC_FCC_B, *           0.02, *           0, *           0;
+    E3F   L_BCC_FCC_F, *           0.02, *           0, *           0;
+     L2      FCC_L_L1, *           0.02, *           0, *           0;
+    L3L      FCC_L_L2, *           0.02, *           0, *           0;
+    L3F       FCC_L_F, *           0.02, *           0, *           0;
+

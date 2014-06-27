@@ -1,0 +1,6 @@
+gnuplot $1.pd - &
+gnuplot $1.hmix - &
+gnuplot $1.act - &
+gnuplot $1.g600 - &
+gnuplot $1.g1100 - &
+gnuplot $1.g1500 - &

@@ -1,0 +1,109 @@
+.TH MINIT 1 "14 Dec 1988" "UR VLSI"
+.SH NAME
+minit \- an efficient Linear Programming package
+.SH SYNOPSIS
+\fBminit\fP [\fB-p\fPprec] [\fB-i\fP[filename]]
+.SH DESCRIPTION
+.I Minit
+solves a Linear Programming problem of n variables and m constraints,
+the last p of which are equality constraints by the dual simplex method.
+The problem statement is
+.sp 1
+.if t \{
+.EQ I
+Maximize ~~z ~=~ c bar sup T ~ x bar ~~~~subject ~~"to"
+.EN
+.EQ I
+bold A x bar ~<=~ b, bar
+~~~~x bar ~>=~ 0 bar
+.EN
+\}
+.if n \{
+.RS
+.nf
+Maximize z = cX
+subject to
+AX <= b
+X >= 0,
+where
+\(bu c is a (1*n) row vector
+\(bu X is a (n*1) column vector
+\(bu A is a (m*n) matrix
+\(bu b is a (m*1) column vector.
+.RE
+.fi
+\}
+.SH OPTIONS
+.IP "-p"
+The following integer specifies the precision (number of decimal places)
+of the output.
+The default is free-format.
+.IP "-i"
+The following argument is the name of the input file.
+If no filename is specified,
+minit goes into interactive mode and prompts for input.
+.LP
+If the -i option is omitted,
+minit takes input (in the appropriate format) from standard input. 
+.SH EXAMPLE
+An example with 4 variables, 2 inequality constraints and 1
+equality constraint follows. The input corresponds to the problem
+.sp 1
+.if t \{
+.EQ I
+Maximize ~~6 x sub 1 ~+~ x sub 2 ~-~ x sub 3 ~-~ x sub 4
+~~~~subj. ~~"to"
+.EN
+.br
+.EQ I
+x sub 1 ~+~ 2 x sub 2 ~+~ x sub 3 ~+~ x sub 4 mark ~<=~ 5
+.EN
+.br
+.EQ I
+3 x sub 1 ~+~ x sub 2 ~-~ x sub 3 lineup ~<=~ 8
+.EN
+.br
+.EQ I
+x sub 2 ~+~ x sub 3 ~+~ x sub 4  lineup ~=~ 1
+.EN
+.br
+.EQ I
+x sub i ~>=~ 0, ~~i ~=~ 1 ,..., 4
+.EN
+\}
+.if n \{
+.RS
+.nf
+Maximize 6x1 + x2 - x3 - x4 subj. to
+
+x1 + 2x2 + x3 + x4 <= 5
+3x1 + x2 - x3      <= 8
+      x2 + x3 + x4  = 1
+
+x1, x2, x3, x4 >= 0
+.RE
+.fi
+\}
+.SH DATA
+.nf
+4 2 1
+
+1 2  1 1
+3 1 -1 0
+0 1  1 1
+
+5 8 1
+6 1 -1 -1
+.fi
+.SH CAVEATS
+Input can have any amount of white space and integer or floating
+point format. No missing values, however. Also, all equality
+constraints are to be specified after the inequality constraints.
+.SH REFERENCE
+Rudolfo C. Salazar and Subrata K. Sen,
+``MINIT (MINimum ITerations) algorithm for Linear Programming,''
+\fICollected Algorithms from CACM,\fP
+algorithm #333, 1968
+.SH AUTHOR
+Translated into C from Algol 60 by Badri Lokanathan,
+Dept. of EE, University of Rochester

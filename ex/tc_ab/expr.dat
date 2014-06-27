@@ -1,0 +1,160 @@
+E1T ref#2,
+BCC_L_A2B_T,
+T,
+1193;
+
+E1L ref#2,
+BCC_L_A2B_L,
+<convert name=T> T </convert>
+<convert name=x2l> 1/50/((100-w2l)/w2l/20 + 1/50) </convert>
+T     w2l,
+1193  40.8;
+
+E1B ref#2,
+BCC_L_A2B_B,
+<convert name=T> T </convert>
+<convert name=x2bcc> 1/50/((100-w2bcc)/w2bcc/20 + 1/50) </convert>,
+T     w2bcc,
+1193  13;
+
+L1 ref#2,
+A2B_L,
+T     x2,
+1341  0.333333;
+
+E2T ref#2,
+A2B_L_BCC_T,
+T,
+1049;
+
+E2L ref#2,
+A2B_L_BCC_L,
+<convert name=T> T </convert>
+<convert name=x2l> 1/50/(w1l/(100-w1l)/20 + 1/50) </convert>
+T     w1l,
+1049  27;
+
+E2B ref#2,
+A2B_L_BCC_B,
+<convert name=T> T </convert>
+<convert name=x2bcc> 1/50/(w1bcc/(100-w1bcc)/20 + 1/50) </convert>,
+T     w1bcc,
+1049  9.3;
+
+E3T ref#2,
+L_BCC_FCC_T,
+T,
+1203;
+
+E3L ref#2,
+L_BCC_FCC_L,
+<convert name=T> T </convert>
+<convert name=x2l> 1/50/(w1l/(100-w1l)/20 + 1/50) </convert>
+T     w1l,
+1203  19;
+
+E3B ref#2,
+L_BCC_FCC_B,
+<convert name=T> T </convert>
+<convert name=x2bcc> 1/50/(w1bcc/(100-w1bcc)/20 + 1/50) </convert>
+T     w1bcc,
+1203  6.9;
+
+E3F ref#2,
+L_BCC_FCC_F,
+<convert name=T> T </convert>
+<convert name=x2fcc> 1/50/(w1fcc/(100-w1fcc)/20 + 1/50) </convert>,
+T     w1fcc,
+1203  6.0;
+
+E4T ref#3,
+BCC_A2B_BCC_T,
+T,
+726;
+
+E4B1 ref#3,
+BCC_A2B_BCC_B1,
+T     x2_1,
+726   0.037;
+
+E4B2 ref#3,
+BCC_A2B_BCC_B2,
+T     x2_2,
+726   0.886;
+
+L2 ref#4, 
+FCC_L_L1,
+<convert name=T> T </convert>
+<convert name=x2l> 1/50/(w1l/(100-w1l)/20 + 1/50) </convert>,
+T      w1l,
+1594   2,
+1548   4.2,
+1499   6.5,
+1438   9.3;
+
+L3L ref#5,
+FCC_L_L2,
+<convert name=T> T </convert>
+<convert name=x2l> 1/50/(w1l/(100-w1l)/20 + 1/50) </convert>
+<convert name=x2fcc> 1/50/(w1fcc/(100-w1fcc)/20 + 1/50) </convert>,
+w1l   w1fcc  T,
+10.4  3.8   1413,
+13.6  4.7   1337,
+18.7  5.9   1213;
+
+L3F ref#5,
+FCC_L_F,
+<convert name=T> T </convert>
+<convert name=x2l> 1/50/(w1l/(100-w1l)/20 + 1/50) </convert>
+<convert name=x2fcc> 1/50/(w1fcc/(100-w1fcc)/20 + 1/50) </convert>,
+w1l   w1fcc  T,
+10.4  3.8   1413,
+13.6  4.7   1337,
+18.7  5.9   1213;
+
+L4L ref#5,
+BCC_L_L,
+<convert name=T> T </convert>
+<convert name=x2l> 1/50/(w1l/(100-w1l)/20 + 1/50) </convert>
+<convert name=x2bcc> 1/50/(w1bcc/(100-w1bcc)/20 + 1/50) </convert>,
+w1l   w1bcc  T,
+24.5   8.5   1100;
+
+L4B ref#5,
+BCC_L_B,
+<convert name=T> T </convert>
+<convert name=x2l> 1/50/(w1l/(100-w1l)/20 + 1/50) </convert>
+<convert name=x2bcc> 1/50/(w1bcc/(100-w1bcc)/20 + 1/50) </convert>,
+w1l   w1bcc  T,
+24.5   8.5   1100;
+
+A ref#5,
+act <var name=T value=1573></var>,
+x2    aB,
+0.9  0.94,
+0.8  0.84,
+0.7  0.74,
+0.6  0.64,
+0.5  0.54,
+0.4  0.44,
+0.3  0.34,
+0.2  0.23,
+0.1  0.12;
+
+Hmix ref#5,
+Hmix <var name=T value=1773></var>,
+x2    Hmix,
+0.9  -1964,
+0.8  -3500,
+0.7  -4588,
+0.6  -5239,
+0.5  -5454,
+0.4  -5233,
+0.3  -4575,
+0.2  -3481,
+0.1  -1950;
+
+Hm ref#5,
+Hmelt,
+H       T   x2,
+3727  1341  0.33333;

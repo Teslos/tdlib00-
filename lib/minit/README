@@ -1,0 +1,13 @@
+Evgenii Rudnyi, http://Evgenii.Rudnyi.Ru/
+
+Last modified 7 Jan 2005.
+
+My changes to minit:
+
+  1) the program is made reentrent - converted to class
+  2) float converted to double
+  3) the internal format of matirices A and E is changed
+  4) the memory allocation is changed to C++
+
+ex/ contains an example
+

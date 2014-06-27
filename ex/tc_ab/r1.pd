@@ -1,0 +1,89 @@
+plot \
+'-' title "E1L" , \
+'-' title "E1B" , \
+'-' title "E2L" , \
+'-' title "E2B" , \
+'-' title "E3L" , \
+'-' title "E3B" , \
+'-' title "E3F" , \
+'-' title "E4B1" , \
+'-' title "E4B2" , \
+'-' title "L1" , \
+'-' title "L2" , \
+'-' title "L3L" , \
+'-' title "L3F" , \
+'-' title "L4L" , \
+'-' title "L4B" , \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1, \
+'-' title "" with line lt -1
+0.216102 1193
+e
+0.0563991 1193
+e
+0.519573 1049
+e
+0.795963 1049
+e
+0.63035 1203
+e
+0.843679 1203
+e
+0.862385 1203
+e
+0.037 726
+e
+0.886 726
+e
+0.333333 1341
+e
+0.951456 1594
+0.901223 1548
+0.851936 1499
+0.795963 1438
+e
+0.775087 1413
+0.717608 1337
+0.634908 1213
+e
+0.910123 1413
+0.890238 1337
+0.864492 1213
+e
+0.552102 1100
+e
+0.81153 1100
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e
+e

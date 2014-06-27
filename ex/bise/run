@@ -1,0 +1,16 @@
+#!/bin/csh -fv
+
+../../bin/assess sys alg pd.out -ores
+
+../../bin/assess sys s23_l
+
+../../bin/assess sys s23_l2
+
+../../bin/assess sys mis
+
+../../bin/assess sys mis2
+
+../../bin/assess sys reac1
+
+../../bin/assess sys reac2
+
